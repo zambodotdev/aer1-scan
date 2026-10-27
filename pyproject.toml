@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aer1-scan"
+version = "1.0.0"
+description = "Check every Zambo receipt link in a file, a web page, or stdin, right from your terminal. A Zambo receipt proves the saved result of an AI job was not changed after the fact."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Brennan Zambo" }
+]
+keywords = ["aer-1", "zambo", "receipts", "verification", "ai-agents", "mcp"]
+
+[project.urls]
+Homepage = "https://zambo.dev/verify/"
+Repository = "https://github.com/zambodotdev/aer1-scan"
+
+[project.scripts]
+aer1-scan = "aer1_scan:main"
+
+[tool.setuptools]
+py-modules = ["aer1_scan"]
