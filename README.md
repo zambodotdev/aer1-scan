@@ -1,5 +1,10 @@
 # aer1-scan
 
+[![zambo receipts](https://img.shields.io/endpoint?url=https://rambozambodotdev.gitlab.io/aer1-hub/badges/receipts.json)](https://zambo.dev/numbers/)
+[![package downloads](https://img.shields.io/endpoint?url=https://rambozambodotdev.gitlab.io/aer1-hub/badges/downloads.json)](https://zambo.dev/numbers/)
+[![IETF drafts](https://img.shields.io/endpoint?url=https://rambozambodotdev.gitlab.io/aer1-hub/badges/drafts.json)](https://datatracker.ietf.org/doc/draft-zambo-aer1/)
+[![AER-1 corpus](https://img.shields.io/endpoint?url=https://rambozambodotdev.gitlab.io/aer1-hub/badges/corpus.json)](https://zambo.dev/aer1/corpus.json)
+
 Check every Zambo receipt in the work you were handed, from your terminal.
 
 Someone gives you AI work full of receipt links: a pull request, a report, a chat log. Instead of clicking each one, run one command. aer1-scan finds every Zambo receipt in a file, a web page, or piped text, checks each one live, and prints one line per receipt. It sends only the receipt ids, nothing else from the document.
@@ -43,3 +48,16 @@ Prefer clicking? The same check runs in your browser at https://zambodotdev.gith
 Want receipts on your own AI work: add Zambo in one URL, no key, at https://zambo.dev/add/?ref=aer1-scan
 
 Founder: Brennan Zambo (https://zambo.dev/founder/). Support: https://zambo.dev/add/?ref=aer1-scan
+
+## Where the receipts come from
+
+aer1-scan checks receipts; Zambo mints them. Every tool call at the live endpoint https://zambo.dev/mcp returns an AER-1 receipt, and this scanner is the independent check, downloaded 772 times across PyPI and npm.
+
+```bash
+pip install aer1-scan
+# or
+npm install aer1-scan
+```
+
+Add Zambo to your AI in one URL, no key, no account: https://zambo.dev/add/
+Free tier: 20 calls and 1 wrap-up free every day, and picking up in another AI is always free. Need more? The $0.99 Day Pass makes it unlimited for 24 hours.
