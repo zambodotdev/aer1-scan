@@ -60,4 +60,4 @@ npm install aer1-scan
 ```
 
 Add Zambo to your AI in one URL, no key, no account: https://zambo.dev/add/
-Free tier: 20 calls and 1 wrap-up free every day, and picking up in another AI is always free. Need more? The $0.99 Day Pass makes it unlimited for 24 hours.
+Free tier: every tool free once a day, plus 3 continue calls; one free wrap-up handover per day, and pickup is always free. Need more? The $0.99 Day Pass makes it unlimited for 24 hours.
